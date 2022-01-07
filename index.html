@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет магазин</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__left-block">
+            <div class="header__logo">
+                <img src="icons/apple.png" style="width:125px;height:125px" alt="Логотип">
+            </div>
+            <nav class="header__links">
+                <a href="#" class="header__link">О нас</a>
+                <a href="#" class="header__link">Продукция</a>
+                <a href="#" class="header__link">Цены</a>
+                <a href="#" class="header__link">Отзывы</a>
+            </nav>
+        </div>
+        <div class="header__right-block">
+            <button class="btn btn_white">Заявка на покупку</button>
+        </div>
+    </header>
+
+
+    <div class="preview">
+        <div class="bgc_blue"></div>
+        <div class="container">
+            <div class="tabcontainer">
+                <div class="tabheader">
+                    <div class="tabheader__items">
+                        <div class="tabheader__item tabheader__item_active">Iphone</div>
+                        <div class="tabheader__item">Ipad</div>
+                        <div class="tabheader__item">Iwatch</div>
+                        <div class="tabheader__item">MacBook</div>
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/iphone.png" alt="iphone">
+                    <div class="tabcontent__descr">
+                        A14 Bionic — найшвидший процесор iPhone.
+                        Дисплей OLED на всю передню панель. Ceramic Shield у 4 рази краще захищає від пошкоджень у разі падіння. І Нічний режим на всіх камерах. Усе це — в двох ідеальних розмірах iPhone 12.
+                    </div>
+                </div>
+                
+               <div class="tabcontent">
+                    <img src="img/tabs/ipad.png" alt="ipad">
+                    <div class="tabcontent__descr">
+                        Все в найдосконалішому вигляді. Неймовірна продуктивність чипа M1, незрівнянний дисплей XDR і надшвидкий бездротовий зв’язок. Повний вперед.
+                    </div>
+                </div>
+               <div class="tabcontent">
+                    <img src="img/tabs/iwatch.png" alt="iwatch">
+                    <div class="tabcontent__descr">
+                        Вимірюйте рівень кисню в крові за допомогою
+приголомшливого датчика й спеціального додатка. Переглядайте показники тренувань на покращеному, завжди ввімкненому дисплеї Retina. Коли у вас Apple Watch Series 6, набагато простіше вести здоровий спосіб життя, бути активнішими й залишатися на зв’язку.
+
+
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/Macbook.png" alt="macbook">
+                    <div class="tabcontent__descr">
+                        MacBook Pro 16 дюймів — найпотужніший серед наших ноутбуків, створений для професіоналів, що змінюють світ. Імерсивний дисплей Retina, надшвидкісні процесори, відеокарта нового покоління, найбільша ємність акумулятора серед усіх ноутбуків MacBook Pro
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="promotion">
+        <div class="bgc_y"></div>
+        <div class="container">
+
+            <div class="promotion__timer">
+                <div class="title"> До распродажи осталось: </div>
+                <div class="timer">
+                    <div class="timer__block">
+                        <span id="days">---</span>
+                        дней
+                    </div>
+                    <div class="timer__block">
+                        <span id="hours">---</span>
+                        часов
+                    </div>
+                    <div class="timer__block">
+                        <span id="minutes">---</span>
+                        минут
+                    </div>
+                    <div class="timer__block">
+                        <span id="seconds">---</span>
+                        секунд
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="menu__field">
+        <div class="title" style="text-align: center;
+    margin-bottom: 5em;"> Товары участвующие в акции: </div>
+        <div class="container parent">
+<!-- с помощью классов или функций конструкторов,сформировать 3 карточки
+с товарами на стороне  js.После этого,закоментировать в html файле три ниже стоящих дива
+Верстка не должна поломаться. Карточи с товарами должны быть видны -->
+
+            <!-- <div class="menu__item">
+                <div style="color:red;">Акция</div>
+                <img src="img/iphone.jpeg" alt="phone">
+                <h3 class="menu__item-subtitle">Смартфон Apple iPhone 12 128Gb Starlight</h3>
+
+                <div class="menu__item-price">
+                    <div class="menu__item-cost">Цена:</div>
+                    <div class="menu__item-total"><span>30.000</span> грн</div>
+                </div>
+                <div class="header__right-block">
+                    <button class="btn btn_white" style="margin:auto">Купить</button>
+                </div>
+            </div>
+            <div class="menu__item">
+                <div style="color:red;">Акция</div>
+                <img src="img/iwatch.jpeg" alt="elite">
+                <h3 class="menu__item-subtitle">Смарт-часы Apple Watch Series 6 </h3>
+                <div class="menu__item-price">
+                    <div class="menu__item-cost">Цена:</div>
+                    <div class="menu__item-total"><span>12.500</span> грн</div>
+                </div>
+                <div class="header__right-block">
+                    <button class="btn btn_white" style="margin:auto">Купить</button>
+                </div>
+            </div>
+            <div class="menu__item">
+                <div style="color:red;">Акция</div>
+                <img src="img/macbook.jpeg" alt="post">
+                <h3 class="menu__item-subtitle">Ноутбук APPLE MacBook Pro 13" M1 16/250gb </h3>
+
+                <div class="menu__item-price">
+                    <div class="menu__item-cost">Цена:</div>
+                    <div class="menu__item-total"><span>44.300</span> грн</div>
+                </div>
+                <div class="header__right-block">
+                    <button class="btn btn_white" style="margin:auto">Купить</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close">&times;</div>
+                    <div class="modal__title">Заказ в один клик</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Купить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
